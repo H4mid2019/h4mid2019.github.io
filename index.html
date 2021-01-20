@@ -119,7 +119,7 @@
 
 		<div class="credit">
 
-			<p class="copyright">&copy;2017 <a href="#">Your Name</a> - <a href="https://onepagelove.com/me">Me Template</a> by <a href="https://onepagelove.com">One Page Love</a></p>
+			<p class="copyright">&copy;<span id="random_number"></span> <a href="#">HamidReza Drabi</a> - <a href="https://darabi.website">Me Template</a> by <a href="https://onepagelove.com">One Page Love</a></p>
 
 			<!--
 			To edit this credit you can remove the CCA 3.0 license for only $5 here: https://onepagelove.com/me
@@ -132,6 +132,8 @@
 	</div>
 
 </div>
-
+<script>
+document.getElementById("random_number").innerHTML = Math.floor(Math.random() * 21) + 2010
+</script>
 </body>
 </html>
